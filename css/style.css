@@ -1,0 +1,895 @@
+@font-face {
+  font-family: "Violet";
+  src: url("./../font/Behind Violet Eyes - TTF.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./../font/Poppins-Medium.ttf");
+}
+
+body {
+  background-image: url(./../img/pink-bg5.jpg);
+  background-size: cove;
+}
+
+.site-text {
+  font-family: "Poppins";
+}
+
+.site-heading {
+  font-family: 'Combo', cursive;
+}
+.white {
+  color: white;
+}
+
+.grey {
+  color: #595959;
+}
+
+body {
+  background-image: url("./../img/pink-bg5.jpg");
+}
+/* HEADER CSS START */
+
+.header-shadow {
+  margin-bottom: 35px;
+}
+
+.w-150 {
+  width: 125px !important;
+}
+
+.pink-header-bg {
+  background: #ab105f; 
+}
+
+li.nav-item a.menu-link {
+  font-family: 'Combo', cursive;
+  font-size: 13px;
+  font-weight: bold;
+
+  letter-spacing: 1px;
+  color: white;
+  transition: 0.3s;
+}
+
+li.nav-item {
+  position: relative;
+}
+
+li.nav-item:not(:last-child) {
+  border-right: 2px solid #ffd1dc;
+}
+
+li.nav-item.active a.menu-link {
+  color: #ffffff;
+  background: #cc689b;
+}
+
+.active {
+  color: #ffffff !important;
+  background: #cc689b !important;
+}
+
+a.menu-link {
+  transition: 0.4s ease-in-out;
+  display: block;
+  padding: 0px 10px !important;
+}
+
+a.menu-link:hover {
+  color: #d93400 !important;
+  text-decoration: none;
+}
+
+button.navbar-toggler:focus {
+  outline: 0;
+}
+
+button.navbar-toggler {
+  border: 1.5px solid white !important;
+}
+
+/* HEADER CSS END */
+
+section.main-content {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+/* ACCORDIAN STYLE START */
+.white-bg {
+  background: white !important;
+}
+
+.card {
+  border: none;
+  background: #cc689b;
+  border-radius: 5px;
+  width: 82%;
+}
+
+div.card-header {
+  background-color: #d72638;
+  padding: 0px;
+}
+
+button.btn.btn-link {
+  color: white;
+  width: 100%;
+  text-align: left;
+  padding: 10px 20px;
+  font-family: "Violet";
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+button.btn.btn-link:hover {
+  text-decoration: none;
+}
+
+.card-body {
+  font-family: "Poppins";
+  background: #fa7ebd38;
+}
+
+.arrow {
+  font-size: 17px;
+  transition: 0.3s ease-in-out;
+}
+
+button.btn.btn-link.collapsed .arrow {
+  transform: rotate(180deg);
+}
+
+.card-body .site-text {
+  font-size: 14px;
+  color: #6b6b6c;
+}
+
+div.accordion {
+  padding: 30px 0px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+ol.detail-ol li {
+  font-size: 14px;
+  color: #6b6b6c;
+}
+
+button.btn.btn-link:hover {
+  cursor: pointer;
+  background: #ff6777;
+}
+
+.chart {
+  padding: 20px;
+}
+
+/* ACCORDIAN STYLE END */
+
+/* FORM CSS START */
+
+.form-div {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+form.calc-form {
+  box-shadow: 1px 6px 20px 0px #c6c6c6;
+  padding: 50px 25px;
+  text-align: center;  
+ /* background-image: linear-gradient(120deg, #FB989B 0%, #ea0007 100%); */
+ background-image: linear-gradient(120deg, RGBA(251, 152, 155, 0.49) 0%, #ea0007 100%);
+  border-radius: 10px;
+}
+
+input.site-input {
+  width: 84%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 8px 10px;
+  margin: 10px 0px;
+}
+
+option {
+  color: #fa7ebd !important;
+}
+
+select.site-dropdown:focus {
+  outline: 0;
+}
+
+select.site-dropdown:hover {
+  cursor: pointer;
+}
+
+input.site-input:focus {
+  outline: 0;
+}
+
+::placeholder {
+  color: white;
+}
+
+input {
+  font-family: "Poppins";
+}
+
+.site-submit {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 7px 30px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.site-submit:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  background: white;
+  color: #fa7ebd;
+}
+
+input.site-input.one::after {
+  background-image: url("./../img/like.png");
+}
+
+h4.site-heading.white.pb-3 {
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+select.site-dropdown {
+  width: 80%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 8px 10px;
+  margin: 10px 0px;
+}
+
+/* FORM STYLE END */
+
+/* FOOTER CSS START */
+
+footer {
+  background: #ab105f;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+
+img.bottom-logo {
+  width: 170px;
+}
+
+.bottom-bar {
+  background: #ab105f;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.bottom-bar p {
+  font-family: "Poppins";
+  color: white;
+}
+
+a.bottom-link {
+  color: white;
+  padding: 0px 15px;
+  transition: 0.4s ease-in-out;
+}
+
+a.bottom-link.line {
+  border-right: 1.5px solid white;
+}
+
+a.bottom-link:hover {
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  background: white;
+  color: #d72638;
+  border-radius: 20px;
+}
+
+/* FOOTER CSS END */
+
+/* ---- MORE CALC SECTION CSS START ---*/
+
+section.more-calc {
+  margin: 40px 0px;
+}
+
+.img-adjust {
+  width: 96%;
+  margin: 0 auto;
+  padding: 0px 0px 0px 0px;
+  background: #cc689b94;
+}
+
+.card-bg {
+  background: #ab105f;
+  color: #91ffff;
+  font-size: 18px;
+  padding: 9px 0px;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+a.card-link {
+  color: white;
+  background: none;
+  padding: 3px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.card-link-div {
+  margin: 10px 0px;
+}
+
+a.card-link:hover {
+  cursor: pointer;
+  color: #c20000;
+  background: white;
+  transition: 0.3s ease-in-out;
+}
+
+.privacy-ul {
+  font-size: 14px;
+  color: #6b6b6c;
+}
+
+ul.privacy-ul li {
+  padding: 7px 0px;
+}
+
+/* ---- MORE CALC SECTION CSS END ---*/
+
+/* ANSWER CSS START */
+
+form.answer-form {
+  padding: 10px 20px;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #fa7ebd;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 7px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 69%;
+  background: white;
+}
+
+.checkbox-div {
+  display: inline-flex;
+  padding-top: 10px;
+}
+
+.quest-text {
+  font-size: 16px !important;
+}
+
+input.ans-submit {
+  background: none;
+  border: 1.5px solid #d72638;
+  color: #d72638;
+  padding: 7px 24px;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+input.ans-submit:hover {
+  cursor: pointer;
+  background: #d72638;
+  color: white;
+}
+
+/* ANSWER CSS END */
+
+/* ---------- CALC BY DOB CSS START  ---------*/
+i.gj-icon {
+  color: white !important;
+}
+
+i.gj-icon.chevron-left,
+i.gj-icon.chevron-right {
+  color: #c71fc7 !important;
+}
+form.calc-form.dob {
+  background-image: linear-gradient(120deg, #aaaaaa 0%, #ee4de9 100%);
+}
+
+input#datepicker {
+  background: none;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+input#datepicker2 {
+  background: none;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+.date-select::placeholder {
+  color: white !important;
+}
+
+button.btn.btn-outline-secondary.border-left-0 {
+  border: 1px solid white !important;
+}
+
+input.site-input.dob {
+  width: 100% !important;
+}
+
+.gj-picker-bootstrap table tr td.selected.gj-cursor-pointer div {
+  background-color: #c84bd7 !important;
+}
+
+.gj-picker-bootstrap table tr td.today div {
+  color: #c84bd7 !important;
+}
+
+span.date-span {
+  display: block;
+  padding: 25px 0px;
+}
+
+select.site-dropdown.dob {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+div.card-header.dob {
+  background-color: #be68b0;
+}
+
+button.btn.btn-link.dob:hover {
+  background: #ef67ff;
+}
+
+img.dob-img {
+  padding-bottom: 10px;
+}
+
+span.recalc {
+  margin-top: 20px;
+  display: block;
+}
+
+/* ---------- CALC BY DOB CSS END  ---------*/
+
+/* ------- LOVE METER CSS START ---------- */
+
+form.calc-form.love {
+  background-image: linear-gradient(120deg, #f4c0c0 0%, #f42d2d 100%);
+}
+
+.site-submit.love:hover {
+  color: #f45b5b;
+}
+
+div.card-header.love {
+  background-color: #ea5858;
+}
+/* ------- LOVE METER CSS END ---------- */
+
+form.calc-form.crush {
+  background-image: linear-gradient(120deg, #5d576b 0%, #6cd4ff 100%);
+}
+
+div.card-header.crush {
+  background-color: #57a2c0;
+}
+
+button.btn.btn-link.crush:hover {
+  background: #34718b;
+}
+
+.site-submit.crush:hover {
+  color: #4498ba;
+}
+
+a.site-submit {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.result-div {
+  margin: 15px 0px;
+  display: inline-flex;
+}
+
+span.result {
+  display: block;
+  color: white;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.conclusion {
+  background: #61616170;
+  padding: 20px;
+  color: white;
+  border-radius: 50px;
+}
+
+form.calc-form.name {
+  background-image: linear-gradient(120deg, #edae49 0%, #00798c 100%);
+}
+
+.card-header.name {
+  background: #3f877a;
+}
+
+button.btn.btn-link.name:hover {
+  background: #047a8b;
+}
+
+input.site-submit.name:hover {
+  color: #f8b843;
+}
+
+a.site-submit.name:hover {
+  color: #e9ad4a;
+}
+
+div.card-header.crush {
+  background-color: #bda357;
+}
+
+form.calc-form.zodiac {
+  background-image: linear-gradient(120deg, #3b3b3b 0%, #ec4e20 100%);
+}
+
+.conclusion.zodiac {
+  background: #ff95053d;
+}
+
+div.card-header.zodiac {
+  background-color: #83402d;
+}
+
+.site-submit.crush:hover {
+  color: #b0492c;
+}
+
+button.btn.btn-link.crush:hover {
+  background: #d35937;
+}
+
+form.calc-form.friend {
+  background-image: linear-gradient(120deg, #b80c09 0%, #dd87db 100%);
+}
+
+.white-bg {
+  background: white !important;
+}
+
+.table-container {
+  margin: 20px;
+  padding: 20px;
+  background: white !important;
+  border-radius: 20px;
+  box-shadow: 0px 5px 17px 0px #5d5d5da1;
+}
+
+thead.thead-dark {
+  background-image: linear-gradient(
+    90deg,
+    #e0a4e7 -19%,
+    #f5576c 100%
+  ) !important;
+}
+.table .thead-dark th {
+  color: #fff;
+  background-color: #ffffff00;
+  border-color: #32383e00;
+}
+table.table.white-bg {
+  font-family: "Poppins";
+}
+.code-btn {
+  border: 1px solid #e33f92;
+  background: none;
+  color: #e33f92;
+  padding: 5px 20px;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+.code-btn:hover {
+  background: #e33f92;
+  color: white !important;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.table td,
+.table th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+.code-btn:focus {
+  outline: 0;
+}
+.modal-header {
+  background-image: linear-gradient(
+    90deg,
+    #e0a4e7 -19%,
+    #f5576c 100%
+  ) !important;
+  color: white !important;
+}
+.modal-content {
+  border: 0px !important;
+}
+.modal-footer {
+  padding: 8px 15px;
+}
+.modal-emoji {
+  font-size: 75px;
+  text-align: center;
+}
+
+.site-dropdown.dob.zodiac option {
+  background: #824330;
+  color: white!important;
+}
+
+.site-dropdown.dob.dob2 option {
+  background: #c584c3;
+  color: white!important;
+}
+
+.site-dropdown.dob.name option {
+  background: #939a62;
+  color: white!important;
+}
+
+.site-dropdown.index option {
+  background: #f36b9d;
+  color: white!important;
+}
+
+.site-dropdown.dob.crush option {
+  background: #6284a1;
+  color: white!important;
+}
+
+.site-dropdown.dob.love option {
+  background: #f46666;
+  color: white!important;
+}
+
+.site-dropdown.dob.friend option {
+  background: #c84265;
+  color: white!important;
+}
+
+.upload {
+  text-align: center;
+}
+
+.diagram {
+  position: relative;
+}
+
+.diagram h4 {
+  font-family: "Poppins";
+  position: absolute;
+  top: 30%;
+  left: 39%;
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0.8em 0 0 .2em;
+  width: 22%;
+  height: 39%;
+  background-color: #fff0;
+}
+/* ---- MEDIA QUERIES START ----- */
+@media (max-width: 1329px) {
+  .form-div {
+    max-width: 60%;
+  }
+}
+@media (max-width: 1200px) {
+  p.card-text {
+    font-size: 14px;
+  }
+  a.card-link {
+    font-size: 15px;
+  }
+  li.nav-item a.menu-link {
+    font-size: 15px !important;
+    letter-spacing: 0px;
+  }
+}
+@media (max-width: 1270px) {
+  li.nav-item a.menu-link {
+    font-size: 17px;
+  }
+}
+@media (max-width: 1107px) {
+  .form-div {
+    max-width: 70%;
+  }
+  div.accordion {
+    width: 70%;
+  }
+}
+@media (max-width: 1033px) {
+  li.nav-item a.menu-link {
+    font-size: 15px;
+  }
+}
+@media (max-width: 897px) {
+  p.card-text {
+    font-size: 13px;
+  }
+}
+@media (max-width: 949px) {
+  .form-div {
+    max-width: 88%;
+  }
+}
+@media (max-width: 992px) {
+  li.nav-item {
+    padding: 10px 0px;
+  }
+  li.nav-item:not(:last-child) {
+    border-right: 0px;
+    border-bottom: 1px solid #ffd1dc;
+  }
+}
+@media (max-width: 768px) {
+  select.site-dropdown {
+    width: 100%;
+  }
+  input.site-input {
+    width: 100%;
+  }
+  .two-hearts {
+    width: 40px;
+  }
+  .card {
+    margin: 15px 0px;
+  }
+  div.accordion {
+    width: 90%;
+  }
+  section.more-calc {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .more-calc-row .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .card-col {
+    margin: 15px 0px;
+  }
+}
+@media (max-width: 600px) {
+  section.main-content {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 610px) {
+  button.btn.btn-link {
+    font-size: 19px;
+  }
+
+  .quest-text {
+    font-size: 14px !important;
+  }
+
+  label.container {
+    font-size: 12px;
+  }
+}
+@media (max-width: 589px) {
+  h4.site-heading.white.pb-3 {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 425px) {
+  button.btn.btn-link {
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+.table-container{
+  margin: 10px;
+  padding: 10px;
+} 
+.code-btn{
+  padding: 5px 8px;
+    font-size: 12px;
+}
+
+thead.thead-dark tr th {
+  font-size: 11px;
+}
+
+tbody tr td {
+  font-size: 12px;
+}
+}
+@media (max-width: 375px) {
+  .card-body .site-text {
+    font-size: 12px;
+  }
+  .card-body.white-bg h5 {
+    font-size: 15px;
+  }
+}
