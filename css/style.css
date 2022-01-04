@@ -106,9 +106,10 @@ section.main-content {
 
 .card {
   border: none;
-  background: #cc689b;
+  background: #f9d5fb82;
   border-radius: 5px;
   width: 82%;
+  border: 4px solid rgb(249 212 253 / 12%);
 }
 
 div.card-header {
