@@ -56,16 +56,27 @@ li.nav-item a.menu-link {
 }
 
 li.nav-item {
-  position: relative;
+    position: relative;
+    background-color: #2d2f312b;
+    padding: 3px;
+    border: 2px solid #f7f7f7;
+    margin: 4px;
+    /* font-size: 21px; */
 }
 
 li.nav-item:not(:last-child) {
   border-right: 2px solid #ffd1dc;
 }
 
-li.nav-item.active a.menu-link {
-  color: #ffffff;
-  background: #cc689b;
+li.nav-item a.menu-link {
+    font-family: 'Combo', cursive;
+    font-size: 13px;
+    font-weight: bold;
+    /* letter-spacing: 1px; */
+    color: white;
+    transition: 0.3s;
+    /* background-color: #2d2f312b; */
+    /* padding: 131px; */
 }
 
 .active {
@@ -80,7 +91,7 @@ a.menu-link {
 }
 
 a.menu-link:hover {
-  color: #d93400 !important;
+  color:#ff9d7f !important;
   text-decoration: none;
 }
 
