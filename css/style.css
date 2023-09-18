@@ -45,7 +45,7 @@ body {
   background: #ab105f; 
 }
 
-li.nav-item a.menu-link {
+/*li.nav-item a.menu-link {
   font-family: 'Combo', cursive;
   font-size: 13px;
   font-weight: bold;
@@ -53,13 +53,13 @@ li.nav-item a.menu-link {
   letter-spacing: 1px;
   color: white;
   transition: 0.3s;
-}
+} */
 
 li.nav-item {
     position: relative;
     background-color: #2d2f312b;
     padding: 3px;
-    border: 2px solid #f7f7f7;
+    border: 2px solid #e3358f;
     margin: 4px;
     /* font-size: 21px; */
 }
@@ -72,7 +72,7 @@ li.nav-item a.menu-link {
     font-family: 'Combo', cursive;
     font-size: 13px;
     font-weight: bold;
-    /* letter-spacing: 1px; */
+    letter-spacing: 0px; 
     color: white;
     transition: 0.3s;
     /* background-color: #2d2f312b; */
